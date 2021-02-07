@@ -4,19 +4,21 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+    <link rel="stylesheet" href="styles.css">
      <title>Search</title>
     </head>
     <body>  
-        <ul>
+        <ul class="navigation">
             <li><a href="image.html">Image Search</a></li>
             <li><a href="advanced.html">Advanced Search</a></li>
         </ul>
-        <div class="container">    
-               <form action="https://google.com/search" >
-                    <input type="text" name="q">
-                    <input type="submit" value="Google Search">
-                </form> 
+        <div class="container">
+            <form action="https://google.com/search" >
+                <div class="box">    
+                    <input class="search-input" type="text" name="q">
+                    <input class="search-button" type="submit" value="Google Search">
+                </div>
+            </form>
         </div>
     </body>
 </html>
